@@ -1,0 +1,29 @@
+.container {
+  max-width: 400px;
+}
+
+.bg-dark {
+  width: 100%;
+  background-image: linear-gradient(55deg, black,#0CF);
+  background-size: 300% 100%;
+}
+
+input[type=text],
+input[type=text]:focus {
+  color: #fff;
+  border: none;
+  background: rgba(0,0,0,0.2);
+  max-width: 400px;
+}
+
+.todos-container li {
+  background: #484E53;
+}
+
+i[data-trash] {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
